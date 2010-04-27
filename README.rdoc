@@ -1,6 +1,12 @@
 = luhney_bin
 
-Description goes here.
+  gem install luhney_bin
+  
+  require 'rubygems'
+  require 'luhney_bin'
+  LuhneyBin.validate("4552720412345677") => true
+  LuhneyBin.validate("21341451")         => false
+  
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +20,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 dpickett. See LICENSE for details.
+Copyright (c) 2010 Dan Pickett. See LICENSE for details.
