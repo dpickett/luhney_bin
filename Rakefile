@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "luhney_bin"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{validates a string of numbers (Credit card numbers ie) against the luhn algorithm}
+    gem.description = %Q{validates a string of numbers (Credit cards and other secure numbers against the luhn algorithm)}
     gem.email = "dpickett@enlightsolutions.com"
     gem.homepage = "http://github.com/dpickett/luhney_bin"
     gem.authors = ["dpickett"]
